@@ -5,59 +5,48 @@ import './style_template.css';
 class Footer extends React.Component {
   render() {
     return (
-      <footer id="careerfy-footer" class="careerfy-footer-one">
-          <div class="container">
+      <footer id="careerfy-footer" className="careerfy-footer-one">
+          <div className="container">
 
-              <div class="careerfy-footer-widget">
-                  <div class="row">
-                      <aside class="widget col-md-4 widget_contact_info">
-                          <div class="widget_contact_wrap">
-                              <a class="careerfy-footer-logo" href="index.html"></a>
+              <div className="careerfy-footer-widget">
+                  <div className="row">
+                      <aside className="widget col-md-4 widget_contact_info">
+                          <div className="widget_contact_wrap">
+                              <a className="careerfy-footer-logo" href="index.html"></a>
                               <p>Sed consequat sapien faus quam bibendum convallis quis in nulla. Pellentesque volutpat odio eget diam cursus semper. Sed coquat sapien faucibus quam.</p>
 
                           </div>
                       </aside>
-                      <aside class="widget col-md-3 widget_nav_manu">
-                          <div class="footer-widget-title"><h2>Quick Links</h2></div>
+                      <aside className="widget col-md-3 widget_nav_manu">
+                          <div className="footer-widget-title"><h2>Quick Links</h2></div>
                           <ul>
-                              <li><a href="#">Shortcodes</a></li>
-                              <li><a href="#">Job Page</a></li>
-                              <li><a href="#">Job Page Alternative</a></li>
-                              <li><a href="#">Resume Page</a></li>
-                              <li><a href="#">Blog</a></li>
-                              <li><a href="#">Contact</a></li>
+                              <li><a href="#">Dashboard</a></li>
+                              <li><a href="#">App Info</a></li>
                           </ul>
                       </aside>
-                      <aside class="widget col-md-3 widget_nav_manu">
-                          <div class="footer-widget-title"><h2>For Candidates</h2></div>
+                      <aside className="widget col-md-3 widget_nav_manu">
+                          <div className="footer-widget-title"><h2>For Patients</h2></div>
                           <ul>
-                              <li><a href="#">Browse Jobs</a></li>
-                              <li><a href="#">Browse Categories</a></li>
-                              <li><a href="#">Submit Resume</a></li>
-                              <li><a href="#">Candidate Dashboard</a></li>
-                              <li><a href="#">Job Alerts</a></li>
-                              <li><a href="#">My Bookmarks</a></li>
+                              <li><a href="/details">Dashboard</a></li>
+                              <li><a href="#">FAQs</a></li>
                           </ul>
                       </aside>
-                      <aside class="widget col-md-2 widget_nav_manu">
-                          <div class="footer-widget-title"><h2>For Employers</h2></div>
+                      <aside className="widget col-md-2 widget_nav_manu">
+                          <div className="footer-widget-title"><h2>For Therapists</h2></div>
                           <ul>
-                              <li><a href="#">Browse Candidates</a></li>
-                              <li><a href="#">Employer Dashboard</a></li>
-                              <li><a href="#">Add Job</a></li>
-                              <li><a href="#">Job Packages</a></li>
+                              <li><a href="#">Contact Sales</a></li>
+                              <li><a href="#">Testimonials</a></li>
                           </ul>
                       </aside>
                   </div>
               </div>
-              <div class="careerfy-copyright">
-                  <p>Copyrights © 2018 All Rights Reserved by <a href="#" class="careerfy-color">EyeCix</a></p>
-                  <ul class="careerfy-social-network">
-                      <li><a href="#" class="careerfy-bgcolorhover fa fa-facebook"></a></li>
-                      <li><a href="#" class="careerfy-bgcolorhover fa fa-twitter"></a></li>
-                      <li><a href="#" class="careerfy-bgcolorhover fa fa-dribbble"></a></li>
-                      <li><a href="#" class="careerfy-bgcolorhover fa fa-linkedin"></a></li>
-                      <li><a href="#" class="careerfy-bgcolorhover fa fa-instagram"></a></li>
+              <div className="careerfy-copyright">
+                  <p>Copyrights © 2018 All Rights Reserved by <a href="#" className="careerfy-color">EyeCix</a></p>
+                  <ul className="careerfy-social-network">
+                      <li><i class="fab fa-facebook fa-2x"></i></li>
+                      <li><i class="fab fa-twitter fa-2x"></i></li>
+                      <li><i class="fab fa-linkedin fa-2x"></i></li>
+                      <li><i class="fab fa-instagram fa-2x"></i></li>
                   </ul>
               </div>
           </div>

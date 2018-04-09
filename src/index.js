@@ -4,10 +4,9 @@ import './style_template.css';
 import './next-icon/flat-icon.css';
 import { Provider } from 'react-redux'; //← Bridge React and Redux
 import { createStore } from 'redux'; // ← Main Redux library
-import {cognito} from 'react-cognito/src/reducers.js';
+// import {cognito} from 'react-cognito/src/reducers.js';
 //
 import Footer from './footer';
-import Header from './header';
 import Navigation from './navigation';
 import Body from './body';
 import Details from './details';
@@ -18,13 +17,12 @@ var Link = require('react-router-dom').Link;
 var Switch = require('react-router-dom').Switch;
 
 //Create Redux Store by passing it the reducers we created earlier.
-let store = createStore(cognito);
+let store = createStore(()=>{});
 
 
 ReactDOM.render(
   <Provider store={store}>
     <div>
-    <Header />
       <Navigation />
       <BrowserRouter>
       <Switch>
